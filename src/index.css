@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(39, 39, 39);
+  color: white;
+}
+
+#quote-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  align-items: center;
+  width: 400px;
+  border: 1px solid white;
+  margin: 20px auto;
+  padding: 20px 20px;
+}
+
+#new-quote {
+  width: 100px;
+}
+
+a {
+  color: rgb(191, 225, 245);
+}
